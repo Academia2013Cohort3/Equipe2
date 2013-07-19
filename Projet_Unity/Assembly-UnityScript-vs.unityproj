@@ -45,14 +45,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\shootSystem.js" />
-     <None Include="Assets\Path\License.txt" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="Path.Runtime">
- <HintPath>Assets\Path\Path.Runtime.dll</HintPath>
+ <Reference Include="RAINIndie">
+ <HintPath>Assets\RAIN\RAINIndie.dll</HintPath>
+ </Reference>
+ <Reference Include="Recast">
+ <HintPath>Assets\RAIN\Recast.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
